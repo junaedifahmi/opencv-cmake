@@ -1,0 +1,55 @@
+Author: Rodrigo Moraes
+email: rdcmdev@gmail.com
+
+Developed on: Linux x86 64 Ubuntu 16.04 kernel 4.4.0-31
+
+Requirements:
+    1. OpenCV 2.4.13
+    2. Cmake 3.5.1
+    3. GNU Make 4.1
+    4. g++ 5.4.0
+    5. C++ version 17
+    6. cpplint 1.3.0(install from pip)
+
+Integrated Development Environmet: 
+    Name: Visual Studio Code 1.19.1(Optional)
+    Extensions:
+        1. C++ integration - C/C++ for Visual Studio Code
+        2. Cmake snippets - CMake For VisualStudio Code
+        3. Keyboard Shortcuts - IntelliJ IDEA Key Bindings for Visual Studio Code
+        4. Embedded terminal - VSC Open in Terminal
+        5. Autocomplete folder - Path Intellisense
+        6. Lint c++ - cpplint
+        7. Icons - vscode-icons
+        8. Theme - Dark+ (default dark)
+    Json setting:
+        {
+            "workbench.colorTheme": "Default Dark+",
+            "workbench.iconTheme": "vscode-icons",
+            "editor.fontSize": 14,
+            "explorer.confirmDelete": false,
+            "explorer.confirmDragAndDrop": false,
+            "C_Cpp.clang_format_fallbackStyle": "Google",
+            "editor.tabSize": 2
+        }
+
+Cmake usage:
+    1. Go to folder build
+    2. Inside of it execute this comand below:
+        cmake ..
+
+GNU Make usage:
+    1. Go to folder build
+    2. Inside of it execute this comand below:
+        make
+
+Git commit style: https://udacity.github.io/git-styleguide/
+
+Google C++ format: https://google.github.io/styleguide/cppguide.html
+
+All project executable(binaries) are on folder bin at root of this project 
+
+Help links to install OpenCV
+    https://www.learnopencv.com/install-opencv3-on-ubuntu/
+    https://github.com/GaoHongchen/DIPDemoQt5/issues/1
+    https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html
